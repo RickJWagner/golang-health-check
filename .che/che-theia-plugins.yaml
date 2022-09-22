@@ -5,6 +5,3 @@
         memoryLimit: 1280
         cpuLimit: 1510m
         cpuRequest: 102m
-    preferences:
-      go.lintTool: 'golangci-lint'
-      go.lintFlags: '--fast'
