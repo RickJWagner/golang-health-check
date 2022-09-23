@@ -1,5 +1,4 @@
 id: eclipse/che-theia/next            # mandatory
-registryUrl: https://my-registry.com  # optional
 override:                             # optional
   containers:
     - name: theia-ide
