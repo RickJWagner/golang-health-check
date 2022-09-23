@@ -1,7 +1,8 @@
-- id: golang/go/latest
-  override:
-    containers:
-      - name: theia-ide
-        memoryLimit: 1280
-        cpuLimit: 1510m
-        cpuRequest: 102m
+id: eclipse/che-theia/next            # mandatory
+registryUrl: https://my-registry.com  # optional
+override:                             # optional
+  containers:
+    - name: theia-ide
+      memoryLimit: 1280Mi        
+      cpuLimit: 1510m
+      cpuRequest: 102m
