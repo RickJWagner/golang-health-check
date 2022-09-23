@@ -1,0 +1,7 @@
+- id: golang/go/latest
+  override:
+    containers:
+      - name: theia-ide
+        memoryLimit: 1280
+        cpuLimit: 1510m
+        cpuRequest: 102m
