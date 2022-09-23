@@ -1,4 +1,5 @@
-id: eclipse/che-theia/next            # mandatory
+id: eclipse/che-theia/latest          # mandatory
+registryUrl: https://eclipse-che.github.io/che-plugin-registry/main/v3
 override:                             # optional
   containers:
     - name: theia-ide
