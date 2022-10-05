@@ -1,3 +1,9 @@
+# THIS REPOSITORY CONTAINS A che-editor.yaml THAT IS KNOWN TO SUCCESSFULLY CHANGE MEMORY/CPU ALLOCATIONS IN THE WORKSPACE DEPLOYMENT.
+It can be used in a factory link.
+At the time of this writing, it is suspected the same repository (with the same che-editor.yaml) does *not* work from BitBucket.
+
+
+
 # Golang Health Check
 A booster demonstrating health checks and recovery using the kubernetes/openshift
 `liveliness` and `readiness` probes.
